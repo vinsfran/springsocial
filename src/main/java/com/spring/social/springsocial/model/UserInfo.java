@@ -6,6 +6,9 @@ public class UserInfo {
     private String lastName;
     private String imageUrl;
 
+    public UserInfo() {
+    }
+
     public UserInfo(String firstName, String lastName, String imageUrl) {
         this.firstName = firstName;
         this.lastName = lastName;
