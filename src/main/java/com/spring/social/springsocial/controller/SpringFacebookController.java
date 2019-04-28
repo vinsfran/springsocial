@@ -20,7 +20,7 @@ public class SpringFacebookController {
     @GetMapping(value = "/facebooklogin")
     public RedirectView facebooklogin() {
         RedirectView redirectView = new RedirectView();
-        String url = facebookService.facebooklogin();
+        String url = facebookService.facebookLogin();
         System.out.println(url);
         redirectView.setUrl(url);
         return redirectView;

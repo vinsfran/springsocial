@@ -24,7 +24,7 @@ public class FacebookServiceImpl implements FacebookService {
     }
 
     @Override
-    public String facebooklogin() {
+    public String facebookLogin() {
         OAuth2Parameters parameters = new OAuth2Parameters();
         parameters.setRedirectUri(uri);
         parameters.setScope("public_profile,email");
